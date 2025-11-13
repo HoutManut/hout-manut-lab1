@@ -17,8 +17,8 @@ jobs:
             - name: Setup Node.js
               uses: actions/setup-node@v4
               with:
-                node-version: ${{ matrix.node-version }}
-                cache: 'npm'
+                  node-version: ${{ matrix.node-version }}
+                  cache: 'npm'
             - name: Install dependencies
               run: npm install --frozen-lockfile
             - name: Lint code
@@ -28,5 +28,5 @@ jobs:
             - name: Upload coverage folder
               uses: actions/upload-artifact@v4
               with:
-                name: coverage-report
-                path: coverage/
+                  name: coverage-report
+                  path: coverage/

@@ -11,16 +11,16 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Hout-Manut/hout-manut-lab1.git"
+        "url": "git+https://github.com/HoutManut/hout-manut-lab1.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "type": "commonjs",
     "bugs": {
-        "url": "https://github.com/Hout-Manut/hout-manut-lab1/issues"
+        "url": "https://github.com/HoutManut/hout-manut-lab1/issues"
     },
-    "homepage": "https://github.com/Hout-Manut/hout-manut-lab1#readme",
+    "homepage": "https://github.com/HoutManut/hout-manut-lab1#readme",
     "dependencies": {
         "chai": "^6.2.0",
         "express": "^5.1.0",
